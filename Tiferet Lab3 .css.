@@ -1,4 +1,4 @@
-<th><h1>{
+th{
 background color: light gray;
 border: 2px;
 border style: solid;
