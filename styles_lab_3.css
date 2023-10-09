@@ -1,0 +1,41 @@
+th {
+    background-color: lightgray;
+    border-style: solid;
+    padding-left: 10px;
+}
+td {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px
+}
+table {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px
+}
+.img-1 {
+    height: 150px;
+    width: 150px;
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
+    padding-left: 30px;
+}
+.img-2 {
+    height: 35%;
+    width: 35%;
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
+    padding-left: 30px;
+}
+.img-3 {
+    height: 11in;
+    width: 8.5in;
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
+    padding-top: 30px;
+}
