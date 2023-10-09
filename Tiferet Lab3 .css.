@@ -1,3 +1,9 @@
-<th>{
-color: dark red ;
+<th><h1>{
+background color: dark red ;
+border: 2px;
+border style: solid;
+border color: black;
+padding: 10px;
+margin: 100px;
 }
+
