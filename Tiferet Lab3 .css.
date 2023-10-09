@@ -1,5 +1,5 @@
 <th><h1>{
-background color: dark red ;
+background color: light gray;
 border: 2px;
 border style: solid;
 border color: black;
