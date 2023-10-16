@@ -32,3 +32,11 @@ border-style:dashed;
 border-color:red;
 padding:30px;
 }
+
+p{
+  text-align:center;
+  text-decoration:underline;
+  text-transform:uppercase;
+  font-family:monospace;
+  font-size:25px;
+  
