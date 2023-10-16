@@ -1,0 +1,42 @@
+.intro{
+    width: 75%;
+}
+.sel-works{
+    text-align: justify;
+}
+.img-1{
+    height: 250px;
+    width: 250px;
+}
+.img-2{
+    height: 250px;
+    width: 250px;
+}
+.img-3{
+    height: 250px;
+    width: 250px;
+}
+header {
+    background-color: gray;
+    padding: 30px;
+    text-align: left;
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: white;
+  }
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 5px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
