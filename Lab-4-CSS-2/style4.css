@@ -1,0 +1,38 @@
+.para{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.njit_link1{
+    background-color: rgb(0,204,1);
+    color:white;
+    margin: 100px 0px 0px 100px;
+    padding: 5px 15px 5px 15px;
+}
+
+.njit_link1:hover{
+    background-color: red;
+}
+
+.njit_link2{
+    background-color: rgb(0,204,1);
+    color:white;
+    margin: 100px 0px 0px 100px;
+    padding: 5px 15px 5px 15px;
+}
+.njit_link2:visited{
+    background-color: gray;
+}
+
+.njit_link3{
+    background-color: rgb(0,204,1);
+    color:white;
+    margin: 100px 0px 0px 100px;
+    padding: 5px 15px 5px 15px;
+}
+
+.njit_link3:active{
+    background-color: orange;
+}
