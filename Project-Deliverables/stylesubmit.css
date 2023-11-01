@@ -1,0 +1,31 @@
+header {
+    background-color: #CC5500;
+    padding: 30px;
+    text-align: left;
+    letter-spacing: 20px;
+    font-size: 35px;
+    color: white;
+}
+.nav{
+    background-color: #E3735E;
+}
+footer {
+    background-color: #CC5500;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.Submit{
+    margin-left: 10px;
+    text-align: center;
+}
+.explain {
+    width: auto;
+    text-align: center;
+}
+form{
+    margin-left: 30px;
+}
+p {
+    margin-left: 30px;
+}
