@@ -1,0 +1,45 @@
+.intro{
+    width: auto;
+    text-align: center;
+}
+.ct_intro{
+  width: auto;
+  text-align: left;
+  margin-left: 10px;
+}
+.nav{
+  background-color: #E3735E;
+}
+.img-1{
+    height: 450px;
+    width: 500px;
+    padding: 10px;
+}
+.img-2{
+    height: 450px;
+    width: 500px;
+    padding: 10px;
+}
+.img-3{
+    height: 450px;
+    width: 500px;
+    padding: 10px;
+}
+header {
+    background-color: #CC5500;
+    padding: 30px;
+    text-align: left;
+    letter-spacing: 20px;
+    font-size: 35px;
+    color: white;
+  }
+.welcome {
+  margin-left: 10px;
+  text-align: center;
+}
+footer {
+    background-color: #CC5500;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
