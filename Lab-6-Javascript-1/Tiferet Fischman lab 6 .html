@@ -116,16 +116,25 @@
 </div>
 
       <script>
-        <let num1=10>
-          <let num2=12>
-        <console.log(num1+num2)>
-          <let numA=90-100>
-          <let numB=80-89>
-          <let numC=70-79>
-          <let numD=60-69>
-          <let numF=0-59>
-          <let sccore=num>
-          
+        let num1 = 9;
+        let num2 = 3;
+        console.log(num1+num2)
+        console.log(num1-num2)
+        console.log(num1*num2)
+        console.log(num1/num2)
+
+          let score = 87;
+        function calculateGrade(Score) {
+          if (Score>=90)
+            console.log("Grade=A");
+          else if (Score>=80 + Score<=89)
+            console.log("Grade=B");
+          else if (Score>=70 + Score<=79)
+            console.log("Grade=C");
+          else if (Score>=60 + Score<=69)
+            console.log("Grade=D");
+          else console.log("Grade=F");
+        }
       </script>
     </body>
   </html>
