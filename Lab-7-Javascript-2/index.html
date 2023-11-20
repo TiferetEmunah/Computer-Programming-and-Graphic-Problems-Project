@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style copy.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: bisque;">
+        <h1 style="color: pink;"><header>Adaline Dymkowski</header></h1>
+        <br>
+        <h3 style="color: green;" style="background-color: bisque;"><sub>NJIT, agd, Architecture</sub>
+        <br>
+        <br>
+        <p style="color: brown;">Hi I'm Adaline, I go by Addie. I am a first year architecture major. <br>Out of school I love to play volleyball, go on walks, and spend time outside. <br>I am from South Jersey and I have been loving being so close to the city so I look forward to more New York City trips!</p>
+        <a href="https://design.njit.edu">Hillier College of Architecture and Design</a>
+        <img src="Hillier-CoAD-2.jpg" alt="">
+        <div>
+            <table class="table table-bordered table-striped">
+                <tr>
+                  <th>Education</th>  
+                  <th>Experience</th>
+                  <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>Adaline</td>
+                    <td>Mary</td>
+                    <td>Bob</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Sally</td>
+                    <td>Fred</td>
+                </tr>
+            </table>
+        </div>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+            <div id="demo" class="collapse">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At ea molestias illum eius dolores consectetur esse iusto. Dicta, similique molestiae tempora ducimus error, voluptas eius at, distinctio mollitia nisi sit?
+            </div>
+        </div>
+        <br>
+        <div>
+            <form>
+                <input type="text" placeholder="Username"> <br> <br>
+                <input type="text" placeholder="First Name"> <br> <br>
+                <input type="text" placeholder="Last Name"> <br> <br>
+                <input type="email" placeholder="Email"> <br> <br>
+                <input type="checkbox">Math
+                <input type="checkbox">Architecture
+                <input type="checkbox">Computer Science <br> <br>
+                <input type="radio" name="course">Math
+                <input type="radio" name="course">Architecture
+                <input type="radio" name="course">Computer Science
+                <input type="submit" value="Submit">
+        </div>
+        <div>
+            <ul>
+                <li>Computer Programming</li>
+                <li>Architecture Tools and Techniques</li>
+                <li>Architecture Studio</li>
+                <li>Probability and Statistics</li>
+                <li>First Year Seminar</li>
+                <li>Introduction to Anthropology</li>
+            </ul>
+        </div>
+        <div>
+            <img src="newark(1).jpg" alt="img1" class="img1">
+            <img src="devils.jpg" alt="img2" class="img2">
+            <img src="giants.jpg" alt="img3" class="img3">
+        </div>
+        <div>
+            <p class="randomtext">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque qui rem, natus recusandae quis sint. Ipsum veritatis libero earum vitae commodi culpa itaque tempore non aperiam cum, ut dolorem nemo.
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li><a class="Home" href="#">Home</a></li>
+                <li><a class="About" href="#">About</a></li>
+                <li><a class="List" href="#">List</a></li>
+            </ul>
+        </div>
+
+        <script>
+            let x=10
+            let y=11
+
+            console.log (x+y)
+            console.log (x-y)
+            console.log (x*y)
+        </script>
+
+        <script>
+
+            function calculateGrade (score) {
+             } if (score>=90) {
+                    console.log ('A grade');
+                } else if (score >=80 && score <=89) {
+                    console.log ('B grade')
+                } else if (score >=70 && score <=79) {
+                    console.log ('C grade')
+                } else if (score>=60 && score <=69) {
+                    console.log ('D grade');
+                } else if (score>=50 && score <=59) {
+                    console.log ('F grade')
+                } calculateGrade(82)
+        </script>
+
+        <div>
+            <button id="changeTextBtn">
+                Click Here!
+            </button>
+        </div>
+
+        <div>
+            <p id="displayText">
+                To be changed by javascript!
+            </p>
+        </div>
+
+        <script>
+            document.getElementById('changeTextBtn'&&'displayText')
+            document.getElementById('changeTextBtn').addEventListener('click', changeInfo)
+            function changeInfo(){
+                let para = document.getElementById('displayText')
+                para.innerHTML = "Hello, JavaScript World!"
+            }
+        </script>
+
+    </body>
+</html>
