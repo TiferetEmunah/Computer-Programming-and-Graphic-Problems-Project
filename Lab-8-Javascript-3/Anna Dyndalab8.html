@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let num1 = 5;
+            let num2 = 3;
+
+            console.log(num1 + num2);
+            console.log(num1 - num2);
+            console.log(num1 * num2);
+
+        var score = 85;
+        function calculateGrade(score) {
+            if (score >= 90) 
+                console.log("A grade");
+             else if (score >= 80 + score <= 89) 
+                console.long("B grade");
+             else if (score >= 70 + score <= 79) 
+                console.log("C grade");
+             else if (score >= 60 + score <= 69) 
+                console.log("D grade");
+             else  console.log("F grade"); 
+        }
+
+        </script>
+
+        <div>
+            <button id="ChangeTxtButton">
+                Click here!
+            </button>
+            <p id="displayText">
+                To be changed by javascript
+            </p>
+        </div>
+
+        <script>
+            document.getElementById('changeTextBtn'||'displayText')
+            document.getElementById('changeTextBtn').addEventListener('click', changeInfo)
+            function changeInfo(){
+                let para = document.getElementById('displayText')
+                para.innerHTML = "Hello, JavaScript World!"
+            }
+        </script>
+
+
+
+    <form name="myform">
+        <input type="text" placeholder="username" required>
+        <input type="password" placeholder="password" required>
+        <input type="submit" onclick="return validateform()">
+    </form>
+
+    <script>
+        document.getElementById('valdForm').addEventListener<'submit'> function(event) {
+        event.preventDefault(); 
+
+         function validateform(){
+        let u_name = document.forms['myform']['username'].value
+            let u_password = document.forms['myform']['password']}
+
+
+        if(u_name == '' || u_password == ''){
+            alert('username/password is empty, please fill out the input field')
+        } else {
+                setTimeout(function() {
+                alert('Success!');
+
+            document.getElementById('myform').submit();
+            }, 3000);}}
+            ;
+    </script>
+    </body>
+</html>
